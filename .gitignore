@@ -1,0 +1,38 @@
+rarible-scaffold-eth/packages/subgraph/subgraph.yaml
+rarible-scaffold-eth/packages/subgraph/generated
+rarible-scaffold-eth/packages/subgraph/abis
+rarible-scaffold-eth/packages/hardhat/*.txt
+rarible-scaffold-eth/**/aws.json
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+rarible-scaffold-eth/**/node_modules
+rarible-scaffold-eth/packages/hardhat/artifacts
+rarible-scaffold-eth/packages/hardhat/deployments
+rarible-scaffold-eth/packages/hardhat/cache
+
+rarible-scaffold-eth/docker/**/data
+
+rarible-scaffold-eth/packages/subgraph/config/config.json
+rarible-scaffold-eth/tenderly.yaml
+
+# dependencies
+rarible-scaffold-eth//node_modules
+rarible-scaffold-eth//.pnp
+rarible-scaffold-eth/.pnp.js
+
+# testing
+rarible-scaffold-eth/coverage
+
+# production
+rarible-scaffold-eth/build
+
+# misc
+rarible-scaffold-eth/.DS_Store
+rarible-scaffold-eth/.env*
+
+# debug
+rarible-scaffold-eth/npm-debug.log*
+rarible-scaffold-eth/yarn-debug.log*
+rarible-scaffold-eth/yarn-error.log*
+
+rarible-scaffold-eth/.idea
